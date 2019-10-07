@@ -1,0 +1,40 @@
+footer {
+  padding: 50px 0;
+  background-color: #93020e;
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    .flogo {
+      width: 282px;
+      height: 142px;
+      display: block;
+      background: url("./images/flogo.png") 0 0 no-repeat;
+    }
+    .fline {
+      width: 1px;
+      height: 142px;
+      background-color: #fff;
+    }
+    .flink {
+      display: flex;
+      color: #fff;
+      ul {
+        margin: 0 25px;
+        li {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+        li.li-h1 {
+          font-size: 18px;
+        }
+        li.li-c {
+          text-align: center;
+        }
+      }
+      ul.ul3 {
+        width: 200px;
+        flex: 0 0 auto;
+      }
+    }
+  }
+}
