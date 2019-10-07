@@ -1,0 +1,142 @@
+.about {
+  .banner {
+    height: 250px;
+    background: url("./images/banner_about.jpg") center 0 no-repeat;
+  }
+  .col-1 {
+    height: 880px;
+    background: url("./images/about_bg1.jpg") center 0 no-repeat;
+    .position {
+      padding: 25px 0 0 15px;
+      font-size: 18px;
+    }
+    .tit {
+      padding: 50px 0 0 0;
+      span {
+        width: 202px;
+        height: 75px;
+        display: block;
+        background: url("./images/about_tit1.png") 0 0 no-repeat;
+      }
+    }
+    .con {
+      padding: 0 15px;
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        width: 570px;
+        height: 570px;
+        background: url("./images/about_logo.png") center center no-repeat;
+      }
+      .info {
+        width: 570px;
+        padding: 40px 40px 0 40px;
+        h2 {
+          font-size: 30px;
+          margin-bottom: 30px;
+        }
+        p {
+          line-height: 2;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .col-2 {
+    height: 884px;
+    background: url("./images/about_bg2.jpg") center 0 no-repeat;
+    .tit {
+      padding: 50px 0 50px 0;
+      span {
+        width: 202px;
+        height: 75px;
+        display: block;
+        background: url("./images/about_tit2.png") 0 0 no-repeat;
+      }
+    }
+    .con {
+      .cooperate {
+        width: 812px;
+        height: 635px;
+        margin: 0 auto;
+        background: url("./images/about_co.png") 0 0 no-repeat;
+      }
+    }
+  }
+  .col-3 {
+    height: 760px;
+    background: url("./images/about_bg3.jpg") center 0 no-repeat;
+    .tit {
+      padding: 50px 0 0 0;
+      span {
+        width: 202px;
+        height: 75px;
+        display: block;
+        background: url("./images/about_tit3.png") 0 0 no-repeat;
+      }
+    }
+    .con {
+      padding-left: 30px;
+      overflow: hidden;
+      ul {
+        width: 142px;
+        height: 230px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin: 70px 70px 0 70px;
+        li.li1 {
+          padding-bottom: 15px;
+          text-align: center;
+          img {
+            width: 142px;
+            height: 142px;
+          }
+        }
+        li.li2 {
+          text-align: center;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .col-4 {
+    height: 710px;
+    .tit {
+      padding: 50px 0 0 0;
+      span {
+        width: 202px;
+        height: 75px;
+        display: block;
+        background: url("./images/about_tit4.png") center 0 no-repeat;
+      }
+    }
+    .con {
+      padding: 60px 15px 0 15px;
+      display: flex;
+      justify-content: space-between;
+      .info {
+        width: 580px;
+        font-size: 18px;
+        ul {
+          display: flex;
+          padding-bottom: 20px;
+          li.li1 {
+            flex: 0 0 auto;
+            padding: 0 20px;
+            color: #cd1a26;
+            background: url("./images/icon_arrow.png") 0 5px no-repeat;
+          }
+        }
+        ul.ul-qr {
+          padding-top: 60px;
+        }
+      }
+      .map {
+        width: 510px;
+      }
+    }
+  }
+}

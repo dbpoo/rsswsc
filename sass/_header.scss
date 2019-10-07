@@ -6,6 +6,7 @@ header {
   position: relative;
   display: flex;
   justify-content: center;
+  z-index: 99;
   .logo {
     width: 310px;
     height: 112px;
@@ -43,7 +44,7 @@ nav {
         width: 176px;
         height: 51px;
         border-bottom: 1px solid #ff9fa7;
-        &:last-child{
+        &:last-child {
           border-bottom: 0;
         }
       }
@@ -55,6 +56,10 @@ nav {
         display: block;
       }
     }
+  }
+  .menu-on {
+    color: #333;
+    background: url("./images/menu_hover.png") 0 0 repeat-x;
   }
   .submenu {
     width: 176px;
