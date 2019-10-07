@@ -9,6 +9,8 @@ footer {
       height: 142px;
       display: block;
       background: url("./images/flogo.png") 0 0 no-repeat;
+      margin-right: 60px;
+      flex: 0 0 auto;
     }
     .fline {
       width: 1px;
@@ -26,6 +28,7 @@ footer {
         }
         li.li-h1 {
           font-size: 18px;
+          margin-bottom: 10px;
         }
         li.li-c {
           text-align: center;
